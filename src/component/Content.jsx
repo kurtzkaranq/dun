@@ -11,7 +11,6 @@ export default function Content(props) {
     display: "block",
   };
   useEffect(() => {}, [props.data]);
-  console.log(props.data);
   const test = createElement(props.data.split("\n").join("<br />"));
   return (
     <div className="w-75" style={style}>

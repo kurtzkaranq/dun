@@ -1,7 +1,10 @@
 {
   "HTML": {
     "basic": "The HTML document itself begins with <html> and ends with </html>.",
-    "DOCTYPE": "The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly. \n\n It must only appear once, at the top of the page (before any HTML tags). \n The <!DOCTYPE> declaration is not case sensitive.The <!DOCTYPE> declaration for HTML5 is: \n <!DOCTYPE html>",
+    "DOCTYPE": "The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.It must only appear once, at the top of the page (before any HTML tags). \n The <!DOCTYPE> declaration is not case sensitive.The <!DOCTYPE> declaration for HTML5 is: \n <!DOCTYPE html>",
+    "Header": "HTML headings are defined with the <h1> to <h6> tags.",
+    "Anchor": "<a href=`https://www.w3schools.com`>This is a link</a>",
+    "Image": "<img src=\"w3schools.jpg\" alt=\"W3Schools.com\" width=\"104\" height=\"142\">",
     "element": " An HTML element is defined by a start tag, some content, and an end tag."
   },
   "CSS": {
