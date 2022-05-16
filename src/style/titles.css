@@ -1,5 +1,6 @@
 .left-side {
   background-color: aliceblue;
+  min-height: 81vh;
 }
 .left-side h3 {
   margin-top: 5%;
@@ -18,5 +19,5 @@ ul li {
   text-decoration: none;
 }
 .left-side a :hover {
-  text-decoration: underline;
+  text-decoration: solid;
 }

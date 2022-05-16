@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+main {
+  min-height: 81vh;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

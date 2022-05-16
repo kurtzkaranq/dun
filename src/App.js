@@ -24,9 +24,7 @@ function App() {
   }, []);
   useEffect(() => {
     setTitles(Object.keys(contents));
-    console.log("render");
   }, [contents]);
-  console.log(titles);
   return (
     <div className="App">
       <Header data={contents} />
@@ -51,6 +49,7 @@ function App() {
                         element={
                           <Content
                             data={contents[`${title}`][`${innerTitle}`]}
+                            title={contents[`${title}`]}
                           />
                         }
                       />

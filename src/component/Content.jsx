@@ -1,17 +1,24 @@
-import React, { useEffect } from "react";
+import React, { useEffect, createElement } from "react";
 import { Outlet } from "react-router";
 
-export default function Content({ data }) {
+export default function Content(props) {
   const style = {
-    backgroundColor: "red",
+    marginTop: "auto",
+    textAlign: "center",
+    textDecoration: "wavy",
+    marginRight: "15%",
     height: "76vh",
+    display: "block",
   };
-  useEffect(() => {}, [data]);
+  useEffect(() => {}, [props.data]);
+  console.log(props.data);
+  const test = createElement(props.data.split("\n").join("<br />"));
   return (
     <div className="w-75" style={style}>
-      <h1>{data.title}</h1>
-      <p>{data}</p>
+      {/* <h1>{Object.keys(props.title)[0]}</h1> */}
+      {props.data}
       <Outlet />
     </div>
   );
 }
+//.split("\n").join("<br />")
